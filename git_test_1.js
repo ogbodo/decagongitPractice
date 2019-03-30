@@ -1,3 +1,7 @@
 var Accounting = {};
 
-var client = function() {};
+Accounting.client = function() {
+  //private fields
+  var _address = "";
+  var _phone = "";
+};
