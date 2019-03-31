@@ -9,7 +9,7 @@ Accounting.client = function() {
   this.token = "";
 
   //privilledged getters and setters
-  Object.defineProperties(this, "address", {
+  Object.defineProperty(this, "address", {
     set: function(address) {
       _address = address;
       if (console) console.log("Setting Your address as " + this._address);
@@ -17,6 +17,17 @@ Accounting.client = function() {
     get: function() {
       if (console) console.log("getting Your address as " + this._address);
       return this._address;
+    }
+  });
+
+  Object.defineProperty(this, "phone", {
+    set: function(phone) {
+      _phone = phone;
+      if (console) console.log("Setting Your Phone Number as " + this._phone);
+    },
+    get: function() {
+      if (console) console.log("getting Your Phone Number as " + this._phone);
+      return this._phone;
     }
   });
 };
