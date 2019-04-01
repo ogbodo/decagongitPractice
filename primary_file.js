@@ -34,3 +34,4 @@ Accounting.client = function() {
   //This is the prototype that this object will have
 };
 //this is for master
+//this is for text_edits file.
