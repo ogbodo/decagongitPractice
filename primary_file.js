@@ -1,3 +1,4 @@
+//The Object declaration
 var Accounting = {};
 
 Accounting.client = function() {
