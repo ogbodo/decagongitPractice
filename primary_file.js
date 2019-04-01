@@ -1,6 +1,7 @@
 //The Object declaration
 var Accounting = {};
 
+//class Declaration
 Accounting.client = function() {
   //private fields
   var _address = "";
@@ -31,6 +32,8 @@ Accounting.client = function() {
       return this._phone;
     }
   });
+
+  var c1 = Accounting.client();
 
   //This is the prototype that this object will have
 };
