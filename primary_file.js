@@ -30,5 +30,7 @@ Accounting.client = function() {
       return this._phone;
     }
   });
+
+  //This is the prototype that this object will have
 };
 //this is for master
