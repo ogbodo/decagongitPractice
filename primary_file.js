@@ -35,3 +35,4 @@ Accounting.client = function() {
 };
 //this is for master
 //replacing in order to make a conflict here
+//this is for text_edits file.
